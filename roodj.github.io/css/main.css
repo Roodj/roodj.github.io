@@ -222,13 +222,13 @@ justify-content:center;
   grid-area: three;
 display:none;}
 .fok{
-display:none;
+display:none;	
 }
 
 }
 @media screen and (min-width:900px){
 #grid{
-  text-align: center; 
+  text-align: center;
   display: grid;
   grid-template-columns:repeat(3,minmax(150px,auto));
 grid-auto-rows:minmax(150px,auto);

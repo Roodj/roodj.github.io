@@ -1,0 +1,56 @@
+#grid3{
+  text-align: center;
+  display: grid;
+  grid-template-columns:repeat(7,minmax(150px,auto));
+grid-auto-rows:minmax(150px,auto);
+grid-gap: 10px;
+margin:20px 0;
+padding:5px;
+ background-color: white;
+ max-width: 100%;
+ max-height: auto;
+
+ grid-template-areas:
+ " on on on tw tw tw tw "
+"tr tr tr tr tr tr tr"
+"fv fv fr fr fr fr fr "
+"sx sx sx sx sx sx sx"
+"sv sv sv sv sv sv sv"
+;}
+#grid3 p{
+  margin:0;
+}
+   .on{
+     margin: 0 20px;
+     background-image: url(../images/c.jpg);
+     grid-area: on;
+   }
+   .tw{
+     text-align: right;
+     grid-area: tw;
+   }
+.tr{
+  grid-area:tr;
+  text-align: left;
+}
+.tr h2{
+  margin: 20px 0 10px 0px;
+
+}
+.fr img{
+  padding: 0 0 0 0;
+}
+.fr{
+  grid-area:fr;
+margin: 0 0 0 30px;
+}
+.fv{
+  grid-area:fv;
+  background-image: url(../images/ZA.jpg);
+}
+.sx{
+  grid-area:sx;
+}
+.sv{
+  grid-area:sv;
+}
