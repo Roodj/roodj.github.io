@@ -1,4 +1,11 @@
 
+.sod{
+text-align: left;
+    padding: 5px 5px 0px 2px;
+}
+.pos{
+margin-left:800px!important;
+}
 .fa-bars{
   font-size:40px!important;
   color: rgb(130, 140, 190)!important;
@@ -13,7 +20,7 @@
 nav{
   background-color: #213578 !important;
 }
-.nav-link{
+.ndis{
   color: rgb(255, 255, 255)!important;
 }
 .re{
@@ -22,7 +29,7 @@ nav{
 .ac{
   color: rgb(168, 176, 207)!important;
 }
-.nav-link:hover{
+.ndis:hover{
   color: rgb(110, 128, 255)!important;
 }
 .button {
@@ -228,7 +235,7 @@ display:none;
 }
 @media screen and (min-width:900px){
 #grid{
-  text-align: center; 
+  text-align: center;
   display: grid;
   grid-template-columns:repeat(3,minmax(150px,auto));
 grid-auto-rows:minmax(150px,auto);
