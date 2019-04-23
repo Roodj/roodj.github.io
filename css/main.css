@@ -296,6 +296,32 @@ padding:5px;
   height: 193px;
 }
 }
+@media screen and (min-width:320px){
+  .img1{
+  height: 408px;
+  }
+  .img2{
+  padding:20px 0 0 25px;
+  height: 350px;
+  }
+  .img3{
+    padding:0 0 0 8px;
+  height: 413px;
+  margin: 30px 0 30px 0;
+  }
+  .img4{
+    padding:20px 0 0 0;
+  height: 254px;
+  }
+
+  .img5{
+    padding:5px 0 0 15px;
+  height: 183px;
+  }
+  .img6{
+  height: 193px;
+}
+}
 @media screen and (min-width:2440px){
 .img1{
 height: 450px;
