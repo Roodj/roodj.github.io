@@ -269,6 +269,32 @@ padding:5px;
   grid-area: three;
 }
 /* INDEX3 */
+@media screen and (min-width:320px){
+  .img1{
+  height: 450px!important;
+  padding:60px 0 0 25px;
+  }
+  .img2{
+  padding:20px 0 0 25px;
+  height: 350px!important;
+  }
+  .img3{
+    padding:0 0 0 25px;
+  height: 413px!important;
+  margin: 30px 0 0 0;
+  }
+  .img4{
+    padding:20px 0 0 0;
+  height: 254px!important;
+  }
+
+  .img5{
+    padding:5px 0 0 15px;
+  height: 183px!important;
+  }
+  .img6{
+  height: 193px!important;
+}
 .img1{
 height: 450px!important;
 padding:60px 0 0 25px;
