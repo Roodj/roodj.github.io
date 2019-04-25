@@ -126,8 +126,9 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 1.1em;
 }
 /* Навбар */
-.navbar-brad img {
+.navbar-brand img {
   width: 85px;
+  font-size: 100px!important;
 }
 .navbar-nav li {
   padding-right: 20px;
