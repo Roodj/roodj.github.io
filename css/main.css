@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6
 /* Навбар */
 .navbar-brand img {
   width: 85px;
-  font-size: 100px!important;
+  font-size: 20px!important;
 }
 .navbar-nav li {
   padding-right: 20px;
